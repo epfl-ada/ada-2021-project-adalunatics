@@ -52,6 +52,8 @@ Statistical analysis over this (t-test)
 
 ## Proposed Timeline
 
+![Capture](https://user-images.githubusercontent.com/65892642/141373283-da72f711-5835-45b2-9b2c-503403cecbe2.PNG)
+
 
 ## Organization
 

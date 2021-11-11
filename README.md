@@ -25,13 +25,11 @@ In addition of Quotebank dataset from which we'll extract "metoo quotes" (quotes
 The tweets dataset is acquired from [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2SRSKJ) which contains 32,071,469 *#metoo* tweets ranging from October 15, 2017 to March 31, 2020. The dataset only contains tweet IDs, thus, we applied for access to Twitter API in order to fetch tweets and their metadata from IDs. The dataset is distributed in 33 txt files *(each containing 1M tweet IDs)*.
 
 ### Dataset 2 : Dramatic Events 
-We then looked at the literature to check how these analyses were carried out in publiched research. In both Ghosh 2020 and Kaufman 2021, the considered events were seemingly picked from the news coverage of the studied period. We set off to do the same. In our final list of traumatic events we will therefore present a selection of allegations of sexual misconduct extracted from the above mentioend papers, integrated with more updated lists such as https://www.vox.com/a/sexual-harassment-assault-allegations-list?.
-Sources:
-Ghosh, 2020 https://journals.sagepub.com/doi/abs/10.1177/1940161220968081
-Kaufman, 2021 https://journals.sagepub.com/doi/abs/10.1177/0886260519868197
+The history of #metoo has been defined by waves of popularity in the public discourse. These were mostly caused by events that ignited strong feelings and heated discussions into the mainstream, posing a challenge to the status quo of powerful men used to havign their ways. In this context, we define traumatic events the ones directly related to the core issue of sexual harassment, the allegations by victims and direct consequences.
+After several unsuccessfully tries using the wikidata platform, we decided to abandon this as a primary source of traumatic events as the criteria of inclusion " the wikidata item has a specific property" did not appear to be strong enough to base our analysis on. We then looked at the literature to check how these analyses were carried out in publiched research. In both Ghosh 2020 (https://journals.sagepub.com/doi/abs/10.1177/1940161220968081) and Kaufman 2021 (https://journals.sagepub.com/doi/abs/10.1177/0886260519868197), the considered events were seemingly picked from the news coverage of the studied period. We set off to do the same. In our final list of traumatic events we will therefore present a selection of allegations of sexual misconduct extracted from the previous mentionned papers, integrated with more updated lists such as https://www.vox.com/a/sexual-harassment-assault-allegations-list?.
 
 ### Dataset 3 : Non-Dramatic Events 
-### Dataset 4 : Metatata on Speakers
+
 
 ## Methods
 
@@ -42,6 +40,5 @@ Kaufman, 2021 https://journals.sagepub.com/doi/abs/10.1177/0886260519868197
 ## Proposed Timeline
 
 ## Organization
-
 
 ## Questions for TAs

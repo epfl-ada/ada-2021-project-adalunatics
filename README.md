@@ -38,7 +38,7 @@ Finally, we are investigating NLP-based method because the quotes extracted so f
 ### 2. Timeline realisation
 We aim at creating a certain timeline displaying the number of #metoo quotes released by day. This will be implemented from Quotebank extracted quotes, tweets, while displaying the dramatic events on the same timeline. 
 
-![Nice_plot_2](https://user-images.githubusercontent.com/65892642/141352684-4c6a8637-afaf-4b94-80cb-325c8de8259e.png)
+![Nice_plot_2](https://user-images.githubusercontent.com/65892642/141377664-07064faf-c5ee-4d66-82f6-ffee229ad693.png)
 
 
 

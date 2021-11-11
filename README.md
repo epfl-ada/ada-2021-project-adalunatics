@@ -22,8 +22,15 @@ Another question is how the timing of such events matters, e.g. what if we chang
 In addition of Quotebank dataset from which we'll extract "metoo quotes" (quotes related to metoo movement), we'll be using others datasets in our project.
 
 ### Dataset 1 : Metoo tweets
-### Dataset 2 : URLS
-### Dataset 3 : Events (non-dramatic and dramatic)
+The tweets dataset is acquired from [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2SRSKJ) which contains 32,071,469 *#metoo* tweets ranging from October 15, 2017 to March 31, 2020. The dataset only contains tweet IDs, thus, we applied for access to Twitter API in order to fetch tweets and their metadata from IDs. The dataset is distributed in 33 txt files *(each containing 1M tweet IDs)*.
+
+### Dataset 2 : Dramatic Events 
+We then looked at the literature to check how these analyses were carried out in publiched research. In both Ghosh 2020 and Kaufman 2021, the considered events were seemingly picked from the news coverage of the studied period. We set off to do the same. In our final list of traumatic events we will therefore present a selection of allegations of sexual misconduct extracted from the above mentioend papers, integrated with more updated lists such as https://www.vox.com/a/sexual-harassment-assault-allegations-list?.
+Sources:
+Ghosh, 2020 https://journals.sagepub.com/doi/abs/10.1177/1940161220968081
+Kaufman, 2021 https://journals.sagepub.com/doi/abs/10.1177/0886260519868197
+
+### Dataset 3 : Non-Dramatic Events 
 ### Dataset 4 : Metatata on Speakers
 
 ## Methods

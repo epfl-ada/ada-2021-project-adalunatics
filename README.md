@@ -58,7 +58,8 @@ Our planning for the coming weeks consists of the following steps:
  -  6-12 December: Fix final problems and (given enough time) perform alternative analysis (see end of **research questions**).
  -  13-17 December:  Polish website and finish all other deliverables.
 
-![Capture](https://user-images.githubusercontent.com/65892642/141373283-da72f711-5835-45b2-9b2c-503403cecbe2.PNG)
+![haha](https://user-images.githubusercontent.com/65892642/141377506-8b781df9-45d8-4e42-b769-3aba5782d33e.png)
+
 
 
 

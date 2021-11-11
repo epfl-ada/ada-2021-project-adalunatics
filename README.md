@@ -1,7 +1,7 @@
-### Title
+# Title
 
 
-### Abstract
+## Abstract
 
 Social movements, as well as human rights movements, usually start or are resurrected after heavily mediatised traumatic events e.g: Black Lives Matter was founded in 2013 and was revived in 2020 after Floyd’s death. 
 However, non-traumatic events can also act as catalysts for such movements e.g: Bombshell movie in 2019 opened a conversation about workplace sexual harassment and revived the #metoo movement which was originally founded in 2006. 
@@ -12,20 +12,29 @@ Next, we create two other timelines, one which contains traumatic events and ano
 Finally, we can use these timelines to correlate the occurrence of (non-)traumatic events with sudden increases in quotes related to #metoo, a sudden increase in quotes could be related to a specific event. 
 
 
-### Research questions
+## Research questions
 
 Our first goal is the identification of events that have a significant event on the amount of quotes related to a subject. 
 Once this is done, given we find enough data we could train a model to predict the impact of certain non-traumatic events. 
 Another question is how the timing of such events matters, e.g. what if we changed the timing of the event to be a few weeks later ?
 
-### Proposed additional datasets
+## Proposed additional datasets
+In addition of Quotebank dataset from which we'll extract "metoo quotes" (quotes related to metoo movement), we'll be using others datasets in our project.
 
-### Methods
+### Dataset 1 : Metoo tweets
+### Dataset 2 : URLS
+### Dataset 3 : Events (non-dramatic and dramatic)
+### Dataset 4 : Metatata on Speakers
 
-### Proposed Timeline
+## Methods
+
+### 1. Data extraction - cleaning / Timeline preparation
+### 2. Study correlations between events and number of "metoo quotes" (quotes related to metoo movement)
+### 3. Explore the differences between events with high/low impact on the movement. 
+
+## Proposed Timeline
+
+## Organization
 
 
-### Organization
-
-
-### Questions for TAs
+## Questions for TAs

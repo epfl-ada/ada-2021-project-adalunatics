@@ -51,6 +51,13 @@ Event : mean #quotes/#tweets on period after the event
 Statistical analysis over this (t-test)
 
 ## Proposed Timeline
+Our planning for the coming weeks consists of the following steps: 
+ - 15-21 November: Finish polishing the Datasets as well selecting the appropriate statistical test to determine on which dates there is a significant increase in number of quotes and tweets. 
+ -  21-28 November: Start working on the website and perform the actual statistical analysis.
+ -  29 November-5 December: Interpret results from statistical analysis and finish the website. 
+ -  6-12 December: Fix final problems and given enough time perform alternative analysis see end of README.
+ -  13-17 December:  Polish website and finish all other deliverables.
+
 
 ![Capture](https://user-images.githubusercontent.com/65892642/141373283-da72f711-5835-45b2-9b2c-503403cecbe2.PNG)
 

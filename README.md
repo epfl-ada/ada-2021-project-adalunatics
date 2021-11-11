@@ -12,6 +12,7 @@ This could be done by monitoring the number of quotes that include the word #met
 Next, we create two other timelines, one which contains traumatic events and another one for non-traumatic events. 
 Finally, we can use these timelines to correlate the occurrence of (non-)traumatic events with sudden increases in quotes related to #metoo, a sudden increase in quotes could be related to a specific event. 
 
+![Nice_plot](https://user-images.githubusercontent.com/65892642/141350565-c6a1065d-6847-403f-90c5-2631201da002.png)
 
 ## Research questions
 

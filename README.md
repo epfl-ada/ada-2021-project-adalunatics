@@ -8,8 +8,6 @@ Social and human rights movements, usually gain popularity following traumatic e
 
 Our goal is to build a timeline of the #metoo movement to analyze the influence of (non-)traumatic events on this movement throughout the years. Our first step consists of monitoring the number of quotes that include the word #metoo or other related words over time. Next, we create two more timelines, one for traumatic events and another one for non-traumatic events. Finally, we use these timelines to correlate the occurrence of (non-)traumatic events with sudden increases in quotes related to #metoo.
 
-![Nice_plot](https://user-images.githubusercontent.com/65892642/141350565-c6a1065d-6847-403f-90c5-2631201da002.png)
-
 ## Research questions
 
 Our first goal is the identification of events that have a significant event on the amount of quotes related to a subject. 
@@ -40,7 +38,8 @@ Finally, we are investigation NLP-based method because the quotes extracted so f
 ### 2. Timeline realisation
 We aim at creating a certain timeline displaying the number of metoo quotes released by day. This will be implemented from Quotebank extracted quotes, tweets, while displaying the dramatic events on the same timeline. 
 
-#graph william
+![Nice_plot_2](https://user-images.githubusercontent.com/65892642/141352684-4c6a8637-afaf-4b94-80cb-325c8de8259e.png)
+
 
 
 

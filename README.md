@@ -32,7 +32,7 @@ After several unsuccessfully tries using the wikidata platform, we decided to ab
 In the first part, we'll have to preprocess the data, going through extraction of the quotes involved with the metoo movement from Quotebank[2015-2020]. 
 This has been done firstly by manual quote extraction based on the presence of special keywords indentified based on the data. The keyword list extraction has been generated thanks to a  wordcloud based on the quotes containing #metoo.
 We finally end up with a dataset containing around 6 millions quotes involved with metoo movement.
-We are also trying to parse URLS to this purpose, this method would help filter quotes based on the article title which would be extracted from the urls. First, we will extract the hostnames of the urls. Then, pick the top 20 hostnames in terms of occurences and extract their titles to hand-pick the relevent titles.
+We are have also parsed URLS for this purpose, this method would help filter quotes based on the article title which would be extracted from the urls. First, we will extract the hostnames of the urls. Then, pick the top 20 hostnames in terms of occurences and extract their titles to hand-pick the relevent titles.
 Finally, we are investigation NLP-based method because the quotes extracted so far could some of them still not be related to *Sexual Harassment*. Hence, in this step, we will explore different NLP-based methods to properly perform *Topic Modeling* and only save the quotes related to our project.
 
 ### 2. Timeline realisation
@@ -63,6 +63,11 @@ Our planning for the coming weeks consists of the following steps:
 
 
 ## Organization
+We will first all help to complete the dataset of non-traumatic event as this has been the most difficult part of milestone 2. 
+- Gasser: polishing datasets and interpretting results from the statistical tests.
+- William: Focus on making the website and results visualisation.
+- Mathias: Help with website and main person in charge of completing the dataset for non-traumatic events.
+- Milo: Determining optimal statistical test and actually performing statistical analysis.
 
 ## Questions for Tas
 

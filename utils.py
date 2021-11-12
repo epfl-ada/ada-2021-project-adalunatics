@@ -29,10 +29,27 @@ def manual_extraction(df, keywords):
     indices = list(results[results == True].index)
     return df.loc[indices,:]
 
-def parse_title(url):
-    '''This function parses the title from url'''
-    res = get_tld(url, as_object=True)
-    return res.parsed_url.path.split('/')[1]
+def parse_title(hostname, url, positions):  
+  try:
+    res = get_tld(url[2:-2], as_object=True)
+ 
+    if hostname in positions:
+        return res.parsed_url.path.split('/')[positions[hostname]]
+    else:
+        return 0
+  except:
+    pass
+    
+def get_hostname(urls): 
+   result = []
+
+   list_urls = urls[1:-1].replace("'", "").replace(" ", "").split(",")
+   for url in list_urls:
+    parsed_url = urllib.parse.urlparse(url)
+    print(parsed_url)
+    result.append('{uri.scheme}://{uri.netloc}/'.format(uri=parsed_url))
+    #print('{uri.scheme}://{uri.netloc}/'.format(uri=parsed_url))
+   return result
 
 def process_text(text):
     '''This function process the quotes by removing stopping words, lower casing all text and stemming them to their roots.'''
@@ -112,6 +129,7 @@ def featurize(sentence, dataframe, FeatureColumns):
     dataframe = dataframe.append(sentence, ignore_index=True)
     return dataframe
 
+
 def plotWords(dataframe, fileCount=0):
     '''This function plots the quotes (tSNE values) on a 2D Plane'''
     plt.figure(num=None, figsize=(12,8), dpi=300)
@@ -123,3 +141,4 @@ def plotWords(dataframe, fileCount=0):
     
     plt.axis('off')
     plt.savefig(fname='plot'+str(fileCount), dpi=300)
+    

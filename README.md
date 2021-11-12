@@ -66,5 +66,3 @@ We will first all help to complete the dataset of non-traumatic events as this h
 ## Questions for TAs
 1.	Alternatives to quantifying impact of events on the timeline besides the ones mentioned in the notebook. 
 2.	Ideas for extracting non-traumatic events. 
-![image](https://user-images.githubusercontent.com/44507112/141506591-ccb3c83e-0e1d-47e5-ac76-d3ae6ee5ef1d.png)
-

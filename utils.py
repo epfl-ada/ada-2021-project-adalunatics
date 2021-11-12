@@ -52,6 +52,7 @@ def process_text(text):
     return clean_text
 
 def ids_to_tweets(tweet_ids, api):
+    '''This function fetches tweets based on their IDs'''
     counter = 0
     ids = []
 
@@ -82,16 +83,18 @@ def ids_to_tweets(tweet_ids, api):
             print(e)
             counter += 1
             time.sleep(sleepTime)
-            # continue
+            continue
     print(counter)
     # tweets_data = pd.DataFrame.from_dict(tweets_data)
     return tweets_data
 
-def embedSentence(sentence):
-    embed = map(embedding, sentence)
+def embedSentence(sentence, word_vectors):
+    '''This function maps the words in a scentence to their embeddings'''
+    embed = map(lambda x: embedding(x, word_vectors), sentence)
     return list(embed)
 
-def embedding(word):
+def embedding(word, word_vectors):
+    '''This function extracts word embeddings'''
     try:
         embed = word_vectors[word]
     except Exception:
@@ -99,10 +102,24 @@ def embedding(word):
     return embed
 
 def averageEmbedding(sentence):
+    '''This function averages words embedding in a scentence to get one embedding for each scentence'''
     average = np.mean(sentence, axis=0)
     return average
 
-def featurize(sentence, dataframe):
+def featurize(sentence, dataframe, FeatureColumns):
+    '''This function creates a dataframe containing the embeddings in each column'''
     sentence = pd.Series(sentence, index=FeatureColumns)
     dataframe = dataframe.append(sentence, ignore_index=True)
     return dataframe
+
+def plotWords(dataframe, fileCount=0):
+    '''This function plots the quotes (tSNE values) on a 2D Plane'''
+    plt.figure(num=None, figsize=(12,8), dpi=300)
+    ax = plt.subplot(111)
+    for i in range(dataframe.shape[0]):
+        plt.text(dataframe.iloc[i,0], dataframe.iloc[i,1], str(dataframe.iloc[i,2]),
+                color='blue',
+                fontdict={'weight': 'light', 'size':2})
+    
+    plt.axis('off')
+    plt.savefig(fname='plot'+str(fileCount), dpi=300)

@@ -30,10 +30,11 @@ After several unsuccessful tries using the wikidata platform, we decided to aban
 
 ## Methods
 ### 1. Data extraction – Quotes of interest
-In the first part, we'll have to preprocess the data, going through the extraction of quotes involved with the #metoo movement from Quotebank[2015-2020]. 
-This has been done firstly by manual quote extraction based on the presence of special keywords identified based on the data. The keyword list extraction has been generated thanks to a  wordcloud based on the quotes containing #metoo. We finally end up with a dataset containing around 6 million quotes involved with the #metoo movement.
-We have also parsed URLs for this purpose, this method would help filter quotes based on the article title which would be extracted from the urls. First, we will extract the hostnames of the URLs. Then, pick the top 10 hostnames in terms of occurrences and extract their titles to hand-pick the relevant titles.
-Finally, we are investigating NLP-based methods because the quotes extracted so far could still not be related to *Sexual Harassment*. Hence, in this step, we will explore different NLP-based methods, as illustrated in *notebook.ipynb* to properly perform *Topic Modeling* and only save the quotes related to our project.
+The phase includes extracting the needed quotes from the original datasets through the use of three methods:
+ 1. Manual Extraction/WordCloud
+ 2. URL Parsing
+ 3. NLP-based Methods
+All the details and some results concerning each method are illustrated in *notebook.ipynb*.
 
 ### 2. Timeline realisation
 We aim at creating a certain timeline displaying the amount of #metoo quotes released by day. This will be implemented from Quotebank extracted quotes, tweets, while displaying the dramatic events on the same timeline. A scheme of the expected timeline shown below.

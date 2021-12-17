@@ -15,6 +15,8 @@
 3. Is there a gender bias in the speakers of quotes related to sexual harassment ?
 4. Can we observe cancel culture as a ramification of the #MeToo movement?
 
+--- 
+
 ## Proposed additional datasets
 In addition to Quotebank dataset, we'll be using :
 
@@ -28,6 +30,7 @@ After several unsuccessful tries using wikidata platform, we abandonned this as 
 ### Dataset 3 : Non-Traumatic Events
 This dataset aims to cense events which are not related to the core issue of sexual harassment and consequences. After unsuccessful trials to find datasets providing such events, we decided to manually build our own based on articles/blogs such as the [MeToo info page](metoomvmt.org), [ChicagoTribune - #Metoo events timeline](https://www.chicagotribune.com/lifestyles/ct-me-too-timeline-20171208-htmlstory.htmlrelating), [Deutsche Welle]( https://www.dw.com/en/one-year-of-metoo-a-timeline-of-events/a-45763400) the importance of certain events (movie release/publications/demonstrations, and others..) related to MeToo from 2015-2020. Included events are chosen based on their occurrence in at least two sites.
 
+---
 
 ## Methods
 ### 1. Data extraction 
@@ -55,6 +58,8 @@ Afterwards, we will analyze the distributions and compare the impacts of traumat
 ### 4. Statistical Analysis on Cancel Culture. 
 <div style="text-align: justify">We will use statistical tool (t-test) to invetigate whether we are able to identify a cancel culture based on the quotes spoken by  people accused of sexual misconduct or harassment, and quotes in which those people are mentionned. We expect to find a decrease in the number of quotes (spoken by or mentionning them) after their conviction.</div>
 
+---
+
 ## Notebooks
 ### 1. Preprocessing.ipynb 
 This notebook includes all the preprocessing steps of quotes selection, listing :
@@ -75,6 +80,8 @@ This notebook computes the timelines of the extracted quotes from Quotebank, and
 
 ### 3. Cancel_Culture_Study.ipynb
 This notebook used Quotebank2015-2020, as well as the metadata dataset and a dataset of accused people taken from https://www.vox.com/metoo based on quotes in order to study the cancel culture induced by the #MeToo movement.
+
+---
 
 ## Proposed Organisation Timeline
 Our planning for the coming weeks consists of the following steps: 

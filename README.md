@@ -38,16 +38,18 @@ The phase includes extracting the needed quotes from the original datasets throu
  4. PCA / t-SNE for dimensionality reduction.
 All details and some results concerning each method are illustrated in *notebook.ipynb*.
 
-### 2. Timeline Implementation
+### 2. Timeline Implementation and Impact measurements of traumatic and non-traumatic events on #metoo timeline.
 We aim at creating a certain timeline displaying the amount of #metoo quotes released by day. This will be implemented from Quotebank extracted quotes, tweets, while displaying the dramatic events on the same timeline. A scheme of the expected timeline shown below.
 
 | Tweets Timeline | Quotebank Timeline with events |
 |:------:|:------:|
 <img src="img/tweets_timeline.png" width="550" class="center"/> | <img src="img/quotebank_timeline.png" width="550" class="center"/>
 
-### 3. Impact measurements of traumatic and non-traumatic events on #metoo timeline.
 <div style="text-align: justify">The measurement of the impact of all considered events will be carried out with the methods described in the *notebook.ipynb*. We plan to measure the before-after difference in coverage related to each event, exploit the peaks in the derivative associated with surges in media interest.
 Afterwards, we will analyze the distributions and compare the impacts of traumatic vs non traumatic events.</div>
+
+### 3. Statistical investigations over gender bias in the Quotebank and Metadata.
+<div style="text-align: justify">We will investigate the presence of a gender bias in Quotebank dataset and compare with in the #metoo extracted quotes dataset. we hypothesize to find a gender bias towards men in Quotebank and find a decrease of this bias in the #metoo quotes.</div>
 
 ### 4. Statistical Analysis on Cancel Culture. 
 <div style="text-align: justify">We will use statistical tool (t-test) to invetigate whether we are able to identify a cancel culture based on the quotes spoken by  people accused of sexual misconduct or harassment, and quotes in which those people are mentionned. We expect to find a decrease in the number of quotes (spoken by or mentionning them) after their conviction.</div>

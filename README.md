@@ -1,5 +1,5 @@
 
-# Movement Resurection.
+# Movement Resurection
 
 
 ## Abstract

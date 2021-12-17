@@ -43,7 +43,7 @@ We aim at creating a certain timeline displaying the amount of #metoo quotes rel
 
 | Tweets Timeline | Quotebank Timeline with events |
 |:------:|:------:|
-<img src="img/tweets_timeline.png" width="350" class="center"/> | <img src="img/quotebank_timeline.png" width="350" class="center"/>
+<img src="img/tweets_timeline.png" width="450" class="center"/> | <img src="img/quotebank_timeline.png" width="450" class="center"/>
 
 ### 3. Statistical Analysis between events and number of "#metoo quotes" (quotes related to metoo movement)
 <div style="text-align: justify">The measurement of the impact of all considered events will be carried out with the methods described in the *notebook.ipynb*. We plan to measure the before-after difference in coverage related to each event, exploit the peaks in the derivative associated with surges in media interest, and check that our events provoke a lasting change in the time series through *structural-breaks-analysis*.

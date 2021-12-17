@@ -67,7 +67,7 @@ Our planning for the coming weeks consists of the following steps:
 ![haha](https://user-images.githubusercontent.com/65892642/141377506-8b781df9-45d8-4e42-b769-3aba5782d33e.png)
 
 ## Team Organization
-We will first all help to complete the dataset of non-traumatic events as this has been the most difficult part of milestone 2. 
+
 - Gasser: Polishing datasets and main person in charge of preprocessing.
 - William: Focus on making the website, preprocessing and results visualization.
 - Mathias: Help with website, complete the dataset for non-traumatic events, in charge of cancel culture investigations.

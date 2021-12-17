@@ -56,7 +56,7 @@ Afterwards, we will analyze the distributions and compare the impacts of traumat
 Our planning for the coming weeks consists of the following steps: 
  - 15-21 November: Finish polishing the Datasets as well as selecting the appropriate statistical test to determine on which dates there is a significant increase in the number of quotes and tweets. 
  -  21-28 November: Start working on the website and perform the actual statistical analysis.
- -  29 November-5 December: Interpret results from statistical analysis and finish the website. 
+ -  29 November-5 December: Interpret results from statistical analysis and start the website. 
  -  6-12 December: Fix final problems and (given enough time) perform alternative analysis (see end of **research questions**).
  -  13-17 December:  Polish website and finish all other deliverables.
 
@@ -64,13 +64,9 @@ Our planning for the coming weeks consists of the following steps:
 
 ## Organization
 We will first all help to complete the dataset of non-traumatic events as this has been the most difficult part of milestone 2. 
-- Gasser: polishing datasets and interpreting results from the statistical tests.
-- William: Focus on making the website and results visualization.
-- Mathias: Help with website and the main person in charge of completing the dataset for non-traumatic events.
-- Milo: Determining optimal statistical test and performing statistical analysis.
-
-## Questions for TAs
-1.	Alternatives to quantifying impact of events on the timeline besides the ones mentioned in the notebook. 
-2.	Ideas for extracting non-traumatic events. 
+- Gasser: Polishing datasets and main person in charge of preprocessing.
+- William: Focus on making the website, preprocessing and results visualization.
+- Mathias: Help with website, complete the dataset for non-traumatic events, in charge of cancel culture investigations.
+- Milo: Determining optimal statistical test and performing impact measurements and vizualisations.
 
 

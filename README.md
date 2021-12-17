@@ -1,5 +1,5 @@
 
-# Movement Resurection
+# Movement Resurrection
 
 The project can be found on this website : https://william-verstraeten.github.io/adalunatics/
 

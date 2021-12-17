@@ -38,6 +38,8 @@ The phase includes extracting the needed quotes from the original datasets throu
  4. PCA / t-SNE for dimensionality reduction.
 All details and some results concerning each method are illustrated in *notebook.ipynb*.
 
+<img src="img/diagram.png" width="550" class="center"/> 
+
 ### 2. Timeline Implementation and Impact measurements of traumatic and non-traumatic events on #metoo timeline.
 We aim at creating a certain timeline displaying the amount of #metoo quotes released by day. This will be implemented from Quotebank extracted quotes, tweets, while displaying the dramatic events on the same timeline. A scheme of the expected timeline shown below.
 

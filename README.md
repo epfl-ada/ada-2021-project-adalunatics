@@ -49,7 +49,7 @@ We aim at creating a certain timeline displaying the amount of #MeToo quotes rel
 
 | Tweets Timeline | Quotebank Timeline |
 |:------:|:------:|
-<img src="img/tweets_timeline.png" width="550" height="225" class="center"/> | <img src="img/timeline.jpeg" width="550" class="center"/>
+<img src="img/tweets_timeline.png" width="600" height="225" class="center"/> | <img src="img/timeline.jpeg" width="550" class="center"/>
 
 <div style="text-align: justify">The measurement of the impact of all considered events will be carried out with the methods described in the **Impact_Study.ipynb**. We plan to measure the before-after difference in coverage related to each event, exploit the peaks in the derivative associated with surges in media interest.
 Afterwards, we will analyze the distributions and compare the impacts of traumatic vs non-traumatic events.</div>

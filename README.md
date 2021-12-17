@@ -45,14 +45,14 @@ We aim at creating a certain timeline displaying the amount of #metoo quotes rel
 |:------:|:------:|
 <img src="img/tweets_timeline.png" width="550" class="center"/> | <img src="img/quotebank_timeline.png" width="550" class="center"/>
 
-### 3. Statistical Analysis between events and number of "#metoo quotes" (quotes related to metoo movement)
+### 3. Impact measurements of traumatic and non-traumatic events on #metoo timeline.
 <div style="text-align: justify">The measurement of the impact of all considered events will be carried out with the methods described in the *notebook.ipynb*. We plan to measure the before-after difference in coverage related to each event, exploit the peaks in the derivative associated with surges in media interest.
 Afterwards, we will analyze the distributions and compare the impacts of traumatic vs non traumatic events.</div>
 
 ### 4. Statistical Analysis on Cancel Culture. 
 <div style="text-align: justify">We will use statistical tool (t-test) to invetigate whether we are able to identify a cancel culture based on the quotes spoken by  people accused of sexual misconduct or harassment, and quotes in which those people are mentionned. We expect to find a decrease in the number of quotes (spoken by or mentionning them) after their conviction.</div>
 
-## Proposed Timeline
+## Proposed Organisation Timeline
 Our planning for the coming weeks consists of the following steps: 
  - 15-21 November: Finish polishing the Datasets as well as selecting the appropriate statistical test to determine on which dates there is a significant increase in the number of quotes and tweets. 
  -  21-28 November: Start working on the website and perform the actual statistical analysis.
@@ -62,7 +62,7 @@ Our planning for the coming weeks consists of the following steps:
 
 ![haha](https://user-images.githubusercontent.com/65892642/141377506-8b781df9-45d8-4e42-b769-3aba5782d33e.png)
 
-## Organization
+## Team Organization
 We will first all help to complete the dataset of non-traumatic events as this has been the most difficult part of milestone 2. 
 - Gasser: Polishing datasets and main person in charge of preprocessing.
 - William: Focus on making the website, preprocessing and results visualization.

@@ -1,5 +1,5 @@
 
-# Title : Movement's Catalysts.
+# Title : Movement Resurection.
 
 
 ## Abstract
@@ -10,10 +10,10 @@
 
 ## Research questions
 
- 1. Would non-traumatic events cause similar impact as the traumatic ones, in terms of raising a discussion?
- 2. Is there a gender bias when comparing speakers of quotes during traumatic and non-traumatic events? (e.g: Men would respond more to traumatic but less for non-traumatic ones)
- 3. How the timing of such events matters, e.g. what if we changed the timing of the event to be a few months later?
- 4. What would be the estimated impact of a non-traumatic event giving features about the event? (*OBSTACLE: Causality*)
+1. Can we extract quotes related to MeToo movement or Sexual Harassment in the workplace from Quotebank 2015-2020?
+2. Is there a gender bias in the speakers of quotes related to sexual harassment ?
+3. What is the impact of the traumatic vs non-traumatic events on the MeToo movement, based on quotes and tweets involved in #MeToo?
+4. Can we observe cancel culture as a ramification of the #MeToo movement?
 
 ## Proposed additional datasets
 In addition to Quotebank dataset, we'll be using :
@@ -31,10 +31,11 @@ This dataset aims to cense events which are not related to the core issue of sex
 
 ## Methods
 ### 1. Data extraction 
-The phase includes extracting the needed quotes from the original datasets through the use of three methods:
- 1. Manual Extraction/WordCloud
- 2. URL Parsing
- 3. NLP-based Methods
+The phase includes extracting the needed quotes from the original datasets through the use of four methods, applied in the sequential method :
+ 1. Manual Extraction/WordCloud,
+ 2. NLP-based Methods (LDA) for topic detection,
+ 3. BERT / Glove / Word2vec to extract embeddings,
+ 4. PCA / t-SNE for dimensionality reduction.
 All details and some results concerning each method are illustrated in *notebook.ipynb*.
 
 ### 2. Timeline Implementation
@@ -45,6 +46,8 @@ We aim at creating a certain timeline displaying the amount of #metoo quotes rel
 ### 3. Statistical Analysis between events and number of "#metoo quotes" (quotes related to metoo movement)
 <div style="text-align: justify">The measurement of the impact of all considered events will be carried out with the methods described in the *notebook.ipynb*. We plan to measure the before-after difference in coverage related to each event, exploit the peaks in the derivative associated with surges in media interest, and check that our events provoke a lasting change in the time series through *structural-breaks-analysis*.
 Afterwards, we will analyze the distributions and compare the impacts of traumatic vs non traumatic events.</div>
+
+### 4. Statistical Analysis between events and number of "#metoo quotes" (quotes related to metoo movement)
 
 ## Proposed Timeline
 Our planning for the coming weeks consists of the following steps: 

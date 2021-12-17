@@ -46,10 +46,11 @@ We aim at creating a certain timeline displaying the amount of #metoo quotes rel
 <img src="img/tweets_timeline.png" width="550" class="center"/> | <img src="img/quotebank_timeline.png" width="550" class="center"/>
 
 ### 3. Statistical Analysis between events and number of "#metoo quotes" (quotes related to metoo movement)
-<div style="text-align: justify">The measurement of the impact of all considered events will be carried out with the methods described in the *notebook.ipynb*. We plan to measure the before-after difference in coverage related to each event, exploit the peaks in the derivative associated with surges in media interest, and check that our events provoke a lasting change in the time series through *structural-breaks-analysis*.
+<div style="text-align: justify">The measurement of the impact of all considered events will be carried out with the methods described in the *notebook.ipynb*. We plan to measure the before-after difference in coverage related to each event, exploit the peaks in the derivative associated with surges in media interest.
 Afterwards, we will analyze the distributions and compare the impacts of traumatic vs non traumatic events.</div>
 
-### 4. Statistical Analysis between events and number of "#metoo quotes" (quotes related to metoo movement)
+### 4. Statistical Analysis on Cancel Culture. 
+<div style="text-align: justify">We will use statistical tool (t-test) to invetigate whether we are able to identify a cancel culture based on the quotes spoken by  people accused of sexual misconduct or harassment, and quotes in which those people are mentionned. We expect to find a decrease in the number of quotes (spoken by or mentionning them) after their conviction.</div>
 
 ## Proposed Timeline
 Our planning for the coming weeks consists of the following steps: 
